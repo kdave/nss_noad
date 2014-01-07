@@ -1,0 +1,8 @@
+NSSNOAD_0 {
+global:
+_nss_noad_gethostbyaddr_r;
+_nss_noad_gethostbyname_r;
+_nss_noad_gethostbyname2_r;
+local:
+*;
+};
