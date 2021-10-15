@@ -19,3 +19,6 @@ clean:
 
 install: all $(TARGET)
 	sudo cp $(TARGET) /lib$(BITS)
+
+fetch:
+	wget `cat hosts.txt.url` -O hosts.txt
